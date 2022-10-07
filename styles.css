@@ -288,9 +288,9 @@ a {
     margin: 0 auto;
 }
 
-/* section {
+section {
     padding: 100px 0;
-} */
+}
 
 /* HEADER */
 header {
@@ -312,7 +312,7 @@ header {
 
 .header-nav a {
     display: inline-block;
-    padding: 15px 0 15px 25px;
+    padding: 15px 0 15px 30px;
     font-family: 'Catamaran', sans-serif;
     text-transform: uppercase;
     font-size: .6rem;
@@ -321,7 +321,7 @@ header {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: 'Emblema One', cursive;
     text-transform: uppercase;
     font-weight: 400;
@@ -367,6 +367,69 @@ svg {
     padding-top: 5px;
 }
 
+
+
+/* ABOUT */
+
 .about {
     background-color: #fcdde2;
+}
+
+h2 {
+    font-family: 'Emblema One', cursive;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #1d81cc;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gallery-flex {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.gallery-flex li {
+    width: calc(100% / 3);
+    margin-right: 30px;
+}
+
+.best-appliances h2 {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.gallery-flex li:last-child {
+    margin-right: 0;
+}
+
+.best-appliances {
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-appliances-img {
+    flex-basis: 25%;
+}
+
+.best-appliances-text {
+    flex-basis: 75%;
+    margin-left: 25px;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-size: .75rem;
+}
+
+.best-appliances a {
+    background-color: #042259;
+    color: white;
+    font-size: .75rem;
+    font-family: 'Emblema One', cursive;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 20px;
+
 }
