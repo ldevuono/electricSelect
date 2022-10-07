@@ -422,7 +422,8 @@ p {
     font-size: .75rem;
 }
 
-.best-appliances a {
+.best-appliances a,
+.blog a {
     background-color: #042259;
     color: white;
     font-size: .75rem;
@@ -432,4 +433,38 @@ p {
     padding: 10px 15px;
     margin-top: 20px;
 
+}
+
+/* BLOG */
+
+.blog {
+    background-color: #f0f5ff;
+    padding: 0;
+}
+
+.blog-flex {
+    display: flex;
+}
+
+.blog-text,
+.blog-img {
+    width: 50%;
+}
+
+.blog h2 {
+    text-align: unset;
+    margin-bottom: 10px;
+}
+
+.blog-text {
+    padding: 120px;
+}
+
+h2 span {
+    display: block;
+}
+
+.blog a {
+    color: #042259;
+    background-color: #f5c8cf;
 }
