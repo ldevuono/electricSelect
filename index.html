@@ -148,15 +148,15 @@
         <section class="contact">
             <ul class="contact-icons">
                 <li>
-                    <i class="fa-solid fa-car fa-2xl"></i>
+                    <a href=""><i class="fa-solid fa-car fa-2xl"></i></a>
                     <a href="">Shop</a>
                 </li>
                 <li>
-                    <i class="fa-solid fa-briefcase fa-2xl"></i>
+                    <a href=""><i class="fa-solid fa-briefcase fa-2xl"></i></a>
                     <a href="">Jobs</a>
                 </li>
                 <li>
-                    <i class="fa-solid fa-calendar-check fa-2xl"></i>
+                    <a href=""><i class="fa-solid fa-calendar-check fa-2xl"></i></a>
                     <a href="">Events</a>
                 </li>
             </ul>
@@ -166,37 +166,44 @@
     <!-- END MAIN -->
     <!-- FOOTER -->
     <footer>
-        <!-- FORM -->
-        <div class="stay-updated">
-            <h3>Stay Updated</h3>
-            <form action="">
-                <label for="email">Subscribe to our newsletter to stay updated.</label>
-                <input type="email" placeholder="email address" id="email">
-                <button type="submit">Subscribe</button>
-            </form>
+        <div class="footer-flex wrapper">
+            <!-- FORM -->
+            <div class="stay-updated">
+                <h3>Stay Updated</h3>
+                <form action="" class="form">
+                    <div class="label">
+                        <label for="email">Subscribe to our newsletter to stay updated.</label>
+                    </div>
+                    <div class="input-button">
+                        <input type="email" placeholder="email address" id="email">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            <!-- END FORM -->
+            <div class="contact-footer">
+                <h3>Contact</h3>
+                <p>info@email.com 123 - 456 - 7890</p>
+                <p>123 Some Road, Toronto, ON</p>
+                <p>A5A 5A5, Canada</p>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li><a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <!-- END FORM -->
-        <div class="contact-footer">
-            <h3>Contact</h3>
-            <p>info@email.com 123 - 456 - 7890</p>
-            <p>123 Some Road, Toronto, ON</p>
-            <p>A5A 5A5, Canada</p>
-        </div>
-        <div class="footer-nav">
-            <ul>
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">About</a>
-                </li>
-                <li>
-                    <a href="">Blog</a>
-                </li>
-                <li><a href="">Contact</a>
-                </li>
-            </ul>
-        </div>
+        <p class="copyright">Copyright 2022 Juno College</p>
     </footer>
     <!-- FOOTER END -->
 </body>

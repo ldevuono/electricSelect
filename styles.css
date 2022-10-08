@@ -282,6 +282,10 @@ a {
     color: inherit;
 }
 
+button {
+    all: unset;
+}
+
 .wrapper {
     max-width: 1080px;
     width: 80%;
@@ -417,7 +421,9 @@ h2 {
     margin-left: 25px;
 }
 
-p {
+p,
+label,
+input {
     font-family: 'Barlow', sans-serif;
     font-size: .75rem;
 }
@@ -497,4 +503,73 @@ h2 span {
 .contact-icons i {
     margin-bottom: 35px;
     color: #042259;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #f0f5ff;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+h3,
+.footer-nav a {
+    font-family: 'Emblema One', cursive;
+    font-size: .9rem;
+    color: #1d81cc;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* FORM */
+/*label and input font styled with p ^ */
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: 1px solid #f5c8cf;
+    padding: 5px 20px;
+    width: 300px;
+}
+
+.input-button {
+    margin-top: 10px;
+    display: flex;
+}
+
+button {
+    font-size: .75rem;
+    font-family: 'Emblema One', cursive;
+    color: #042259;
+    background-color: #f5c8cf;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    max-height:
+
+}
+
+
+/* COPYRIGHT */
+.copyright {
+    color: white;
+    background-color: #042259;
+    text-align: center;
+    width: 100%;
+    padding: 8px 0;
 }
