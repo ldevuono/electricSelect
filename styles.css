@@ -426,6 +426,7 @@ label,
 input {
     font-family: 'Barlow', sans-serif;
     font-size: .75rem;
+    line-height: 22px;
 }
 
 .best-appliances a,
@@ -463,8 +464,10 @@ input {
 }
 
 .blog-text {
-    padding: 120px;
+    padding: 100px;
 }
+
+
 
 h2 span {
     display: block;
@@ -501,7 +504,7 @@ h2 span {
 }
 
 .contact-icons i {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
     color: #042259;
 }
 
@@ -543,7 +546,7 @@ h3,
 input {
     border: 1px solid #f5c8cf;
     padding: 5px 20px;
-    width: 300px;
+    width: 350px;
 }
 
 .input-button {
