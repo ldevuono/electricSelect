@@ -253,6 +253,22 @@ html {
     overflow: hidden;
 }
 
+/* 
+COLORS
+light pink background color: #fcdde2;
+pale rose anchor background color: #f5c8cf;
+pale grey background color: #f0f5ff;
+water blue font color: #1d81cc;
+marine blue font color: #042259;
+darker grey font color: #1f2022;
+
+FONTS
+'Emblema One', cursive;
+'Catamaran', sans-serif;
+'Barlow', sans-serif;
+ */
+
+
 /* STYLES BEGIN */
 /* GENERAL/STRIPPING STYLES */
 html {
@@ -331,7 +347,7 @@ h1 {
     font-weight: 400;
     color: #1d81cc;
     padding-top: 165px;
-    line-height: 57px;
+    line-height: 68px;
 }
 
 h1 span {
@@ -427,6 +443,7 @@ input {
     font-family: 'Barlow', sans-serif;
     font-size: .75rem;
     line-height: 22px;
+    color: #1f2022;
 }
 
 .best-appliances a,
