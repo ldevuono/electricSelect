@@ -468,3 +468,33 @@ h2 span {
     color: #042259;
     background-color: #f5c8cf;
 }
+
+/* CONTACT */
+.contact {
+    background-color: #fcdde2;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icons a {
+    display: inline-block;
+    padding: 0 90px;
+    font-family: 'Emblema One', cursive;
+    color: #1d81cc;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.contact-icons li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-icons i {
+    margin-bottom: 35px;
+    color: #042259;
+}
