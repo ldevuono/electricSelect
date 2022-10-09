@@ -438,11 +438,11 @@ h2 {
 }
 
 .best-appliances-img {
-    flex-basis: 25%;
+    width: 25%;
 }
 
 .best-appliances-text {
-    flex-basis: 75%;
+    width: 75%;
     margin-left: 25px;
 }
 
@@ -608,9 +608,68 @@ button {
     }
 }
 
+@media (max-width:920px) {
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .best-appliances {
+        flex-direction: column;
+    }
+
+    .best-appliances h2 {
+        text-align: center;
+    }
+
+    .best-appliances-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .best-appliances-img img {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .best-appliances-text {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .best-appliances-text p {
+        text-align: justify;
+    }
+
+    .best-appliances a {
+        font-size: 1rem;
+        padding: 20px 25px;
+    }
+}
+
 @media(max-width:820px) {
+
     .header-nav a {
         padding: 15px 0 15px 10px;
+    }
+
+    .gallery-flex li:last-of-type {
+        display: none;
+    }
+
+    .gallery-flex li {
+        width: 50%;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+    .gallery-flex li:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .best-appliances-img img {
+        width: 100%;
     }
 }
 
@@ -634,5 +693,10 @@ button {
     h1 {
         font-size: 3rem;
         line-height: 50px;
+    }
+
+    header p {
+        letter-spacing: 1.2px;
+        font-size: 1rem;
     }
 }
