@@ -756,6 +756,11 @@ button {
         flex-direction: column;
     }
 
+    h3,
+    .footer-nav a {
+        font-size: 1.1rem;
+    }
+
     button {
         margin-bottom: 25px;
     }
