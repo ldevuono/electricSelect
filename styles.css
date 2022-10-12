@@ -339,16 +339,6 @@ header {
     color: #042259;
 }
 
-.menu {
-    display: none;
-}
-
-.menu i {
-    color: #042259;
-    margin-top: 50px;
-
-}
-
 h1 {
     font-size: 4rem;
     font-family: 'Emblema One', cursive;
@@ -396,7 +386,20 @@ svg {
     padding-top: 5px;
 }
 
+/* HAMBURGER MENU */
+.menu {
+    display: none;
+}
 
+.menu button {
+    cursor: pointer;
+}
+
+.menu i {
+    color: #042259;
+    margin-top: 50px;
+
+}
 
 /* ABOUT */
 
@@ -455,8 +458,7 @@ input {
     color: #1f2022;
 }
 
-.best-appliances a,
-.blog a {
+.read-more {
     background-color: #042259;
     color: white;
     font-size: .75rem;
@@ -465,6 +467,7 @@ input {
     display: inline-block;
     padding: 10px 15px;
     margin-top: 20px;
+    cursor: pointer;
 
 }
 
@@ -497,7 +500,7 @@ h2 span {
     display: block;
 }
 
-.blog a {
+.blog .read-more {
     color: #042259;
     background-color: #f5c8cf;
 }
@@ -681,7 +684,7 @@ footer button {
         text-align: justify;
     }
 
-    .best-appliances a {
+    .best-appliances .read-more {
         font-size: 1rem;
         padding: 20px 25px;
     }
@@ -747,7 +750,7 @@ footer button {
         text-align: justify;
     }
 
-    .blog a {
+    .blog .read-more {
         background-color: #042259;
         color: white;
     }
