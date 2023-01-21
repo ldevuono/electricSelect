@@ -339,6 +339,11 @@ header {
     color: #042259;
 }
 
+.header-nav a:hover,
+.header-nav a:focus {
+    text-decoration: underline solid #1d81cc 2px;
+}
+
 h1 {
     font-size: 4rem;
     font-family: 'Emblema One', cursive;
@@ -373,6 +378,17 @@ svg {
     height: auto;
 }
 
+
+i:hover,
+i:focus {
+    color: #042259;
+}
+
+svg:hover,
+svg:focus {
+    fill: #042259;
+}
+
 .socials-header {
     position: absolute;
     right: 25px;
@@ -389,16 +405,19 @@ svg {
 /* HAMBURGER MENU */
 .menu {
     display: none;
-}
-
-.menu button {
+    z-index: 100;
+    position: fixed;
+    right: 30px;
     cursor: pointer;
 }
 
 .menu i {
     color: #042259;
     margin-top: 50px;
+}
 
+i.close-icon {
+    display: none;
 }
 
 /* ABOUT */
@@ -524,6 +543,11 @@ h2 span {
     font-size: 1.1rem;
 }
 
+.contact-icons a:hover,
+.contact-icons a:focus {
+    color: #042259;
+}
+
 .contact-icons li {
     display: flex;
     flex-direction: column;
@@ -563,6 +587,11 @@ h3,
     color: #1d81cc;
     text-transform: uppercase;
     margin-bottom: 8px;
+}
+
+.footer-nav a:focus,
+.footer-nav a:hover {
+    color: #042259;
 }
 
 .footer-nav ul {
@@ -783,8 +812,34 @@ footer button {
 }
 
 @media(max-width:716px) {
-    header nav {
-        display: none;
+    .header-nav {
+        position: fixed;
+        transform: translateX(-100%);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        background-color: #f5c8cf;
+    }
+
+    .header-nav a {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .header-nav a:focus,
+    .header-nav a:hover {
+        color: #1d81cc;
+        text-decoration: none;
+    }
+
+
+    .show-menu {
+        transform: translateX(0);
     }
 
     .menu {

@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Barlow&family=Catamaran:wght@600&family=Emblema+One&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/c6e0ae9053.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <title>Electric Select</title>
 </head>
 
@@ -28,22 +29,25 @@
                 <nav>
                     <ul class="header-nav">
                         <li>
-                            <a href="#">Home</a>
+                            <a class="menu-item" href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#about">About</a>
+                            <a class="menu-item" href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#blog">Blog</a>
+                            <a class="menu-item" href="#blog">Blog</a>
                         </li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a class="menu-item" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
                 <div class="menu">
-                    <button type="button">
-                        <i class="fa-solid fa-bars fa-2xl" aria-label="Open navigation menu."></i>
+                    <button class="hamburger">
+                        <i class="menu-icon fa-solid fa-bars fa-2xl" aria-label="Open navigation menu."
+                            aria-hidden="true"></i>
+                        <i class="close-icon fa-solid fa-x fa-2xl" aria-label="Close navigation menu."
+                            aria-hidden="true"></i>
                     </button>
                 </div>
             </div>
@@ -214,6 +218,8 @@
         <p class="copyright">Copyright 2022 Juno College</p>
     </footer>
     <!-- FOOTER END -->
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
