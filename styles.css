@@ -398,9 +398,11 @@ svg:focus {
     align-items: center;
 }
 
-.socials-header li {
-    padding-top: 5px;
+.socials-header a {
+    padding: 5px 0;
+    font-size: 1rem;
 }
+
 
 /* HAMBURGER MENU */
 .menu {
@@ -663,6 +665,16 @@ footer button {
         fill: #042259;
     }
 
+    i:hover,
+    i:focus {
+        color: #1d81cc;
+    }
+
+    svg:hover,
+    svg:focus {
+        fill: #1d81cc;
+    }
+
     .blog-text {
         padding: 50px;
     }
@@ -739,7 +751,26 @@ footer button {
     }
 
     .socials-header {
-        visibility: hidden;
+        flex-direction: row;
+        position: static;
+    }
+
+    .socials-header a {
+        padding: 10px;
+    }
+
+    .socials-header svg {
+        width: 40px;
+    }
+
+    i:hover,
+    i:focus {
+        color: #1d81cc;
+    }
+
+    svg:hover,
+    svg:focus {
+        fill: #1d81cc;
     }
 
     .header-nav {
